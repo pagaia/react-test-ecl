@@ -24,9 +24,9 @@ class NavBar extends Component {
                 <Link to={{ pathname: "/bar/bar/222/e", hash: '#sushi' }}>Bar third </Link>
                 <a href="#select-language" onClick={this.showLanguage}> Select language</a>
 
-                {this.state.showLanguage && <Splash/>}
+                {this.state.showLanguage && <Splash />}
 
             </div>);
     }
 }
-export default NavBar
+export default NavBar;

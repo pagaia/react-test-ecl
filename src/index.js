@@ -1,17 +1,17 @@
+import "@babel/polyfill";
 import { AppContainer } from 'react-hot-loader'
 import { applyMiddleware, compose, createStore } from 'redux'
-import { createBrowserHistory } from 'history'
+import { createHashHistory } from 'history'
 import { routerMiddleware } from 'connected-react-router'
 import { Provider } from 'react-redux'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import rootReducer from './reducers'
-
 import '@ecl/ec-preset-full/dist/styles/ecl-ec-preset-full.css';
 import '@ecl/ec-preset-full/dist/scripts/ecl-ec-preset-full'
 
-const history = createBrowserHistory()
+const history = createHashHistory()
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 const store = createStore(

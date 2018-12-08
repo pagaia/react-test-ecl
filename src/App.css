@@ -22,6 +22,10 @@
   color: #61dafb;
 }
 
+.menu{
+  min-height: 300px;
+}
+
 .menu > a {
   padding: 1em;
   margin-bottom: 1em;
@@ -38,6 +42,14 @@
 }
 .third{
   background: yellow
+}
+#skip-link{
+  opacity: 0;
+  position: absolute;
+}
+
+#skip-link:focus{
+  opacity: 1;
 }
 @keyframes App-logo-spin {
   from {

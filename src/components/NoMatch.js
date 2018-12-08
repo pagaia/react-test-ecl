@@ -1,4 +1,5 @@
 import React from 'react'
+import Container from './Container';
 
 const NoMatch = () => (
   <div>
@@ -6,4 +7,4 @@ const NoMatch = () => (
   </div>
 )
 
-export default NoMatch
+export default Container(NoMatch);

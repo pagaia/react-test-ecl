@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
     "@ecl/ec-preset-full": "^2.0.0-beta.0",
     "connected-react-router": "^5.0.1",
     "history": "^4.7.2",

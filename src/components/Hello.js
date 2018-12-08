@@ -1,4 +1,5 @@
 import React from 'react'
+import Container from './Container';
 
 const Hello = () => (
   <div>
@@ -7,4 +8,4 @@ const Hello = () => (
   </div>
 )
 
-export default Hello
+export default Container(Hello);

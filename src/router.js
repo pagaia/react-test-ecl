@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Switch } from 'react-router'
+import { Link } from 'react-router-dom'
 
 import Hello from './components/Hello'
 import Foo from './components/Foo'
@@ -9,6 +10,7 @@ import NavBar from './components/NavBar';
 
 const routes = (
   <div>
+  <Link to={{ hash: '#main-container' }} id='skip-link'>Skip to main content</Link>
     <NavBar/>
     <Switch>
       <Route exact path="/" component={Hello} />
