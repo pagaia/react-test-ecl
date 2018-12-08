@@ -7,9 +7,9 @@ class Bar extends Component {
     render() {
         return (
             <div>
-            <InPageNav />
+                <InPageNav />
                 <div className='block first'>
-                    <a href='#' id='top'/>
+                    <a href='#' id='top' />
                     <span> first div 100</span>
                     <li>
                         <ul>
@@ -24,8 +24,8 @@ class Bar extends Component {
                     </li>
                 </div>
                 <div className='block second'>first div 100</div>
-                <div className='block third'> 
-                <a href='#' id='bbq'>bbq</a>
+                <div className='block third'>
+                    <a href='#' id='bbq'>bbq</a>
                     <Link to={{ hash: '#top' }}>top</Link>
                 </div>
                 <div className='block forth'>

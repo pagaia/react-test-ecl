@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from './Container';
 
 const Foo = (props) => {
     return <div>
@@ -11,4 +12,4 @@ const Foo = (props) => {
     </div>
 }
 
-export default Foo;
+export default Container(Foo);
