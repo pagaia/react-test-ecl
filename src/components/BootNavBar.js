@@ -4,11 +4,8 @@ import navigationInpages from "@ecl/generic-component-inpage-navigation";
 
 class BootNavBar extends React.Component {
   componentDidMount() {
-    document.addEventListener("DOMContentLoaded", function() {
-      megamenu();
-      //    navigationInpages();
-      // is not working the sticky...
-    });
+    console.log("component did mount");
+    megamenu();
   }
 
   render() {
